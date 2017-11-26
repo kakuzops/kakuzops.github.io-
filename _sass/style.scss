@@ -1,0 +1,131 @@
+@import '../node_modules/jeet/jeet';
+@import '../node_modules/node.normalize.scss/normalize';
+@import 'header';
+@import 'sobre';
+@import 'post';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-weight: 400;
+}
+
+.post {
+    background-color: #141618;
+    overflow: hidden;
+}
+
+.post-header {
+    background-color: #141618;
+    min-height: 600px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.post-header .post-title {
+    color: #fff;
+    margin: 59px auto 0;
+    position: relative;
+    z-index: 3;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.post-header p{
+    color: #f2f2f2;
+    z-index:3;
+    font-size: 23px;
+    position: relative;
+}
+
+
+.post-image {
+    background-image: url('../img/bg-pg.jpg');
+    background-color: #141618;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    opacity: .4;
+}
+.post-image::after {
+    content: '';
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, .8) 0, transparent 50%, transparent 90%, rgba(0, 0, 0, .8));
+    z-index: 2;
+    will-change: transform;
+    position: absolute;
+}
+
+.content {
+    display: flex;
+    background: #f2f2f2;
+    position: relative;
+    top:0 ;    
+}
+
+.topics {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    top: -30px;
+    max-width: 1350px;
+    margin: auto;
+    padding-right: 40px;
+    -webkit-padding-start: 0;
+
+    
+    li{
+        display: inline-block;
+        background-color: #fff;
+        border-radius: 2px;
+        margin: 10px 10px 50px;
+        flex: 1 0 270px;
+        min-width: 270px;
+
+        h2{
+           color: #222;
+           padding: 15px ;
+         }
+
+        p{
+            color: #3b3b3b;
+            padding:15px 5px;
+        }
+        hr{
+            border: solid 1px rgba(125,134,140,0.2);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+  }
+
+
+
+.topics-ee {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    margin: 10px 10px 50px;
+    flex: 1 0 270px;
+    min-width: 270px;
+}
+
+.wrapper {
+    padding: 0 30px 30px;
+    box-shadow: 0px 0px 40px -15px rgba(0,0,0,0.75);
+    
+}

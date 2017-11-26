@@ -1,0 +1,118 @@
+.site-header {
+    top: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 12px;
+    position: fixed;
+    min-height: 59px;
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 4;
+    transition: background-color .3s ease;
+    will-change: transform;
+
+}
+
+.site-nav {
+    text-align: center;
+    order: 2;
+    flex-basis: 100%;
+    transition: background-color .3s ease;
+}
+
+
+.title-link {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+}
+
+.site-nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.site-nav a {
+    color: #E2E6E7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    font-size: 12px;
+    padding: 14px 11px;
+}
+
+@media (min-width: 600px){
+.site-nav {
+    order: 0;
+    flex-basis: initial;
+}
+
+site-nav a {
+    padding: 20px;
+}
+}
+
+
+.site-header {
+    top: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    font-family: 'Poppins Light', sans-serif;
+    font-size: 12px;
+    position: fixed;
+    min-height: 59px;
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 4;
+    transition: background-color .3s ease;
+    will-change: transform;
+  }
+  
+  .notTop,
+  .site-header-white,
+  .top.site-header-white {
+    background: #1c1d21;
+  }
+  
+  .top {
+    background: transparent;
+  }
+
+  .top .site-nav {
+    background: transparent;
+  }
+  
+  
+  
+  .animated.slideDown {
+    -webkit-animation-name: slideDown;
+    -moz-animation-name: slideDown;
+    -o-animation-name: slideDown;
+    animation-name: slideDown;
+  }
+  
+  
+  
+  .animated.slideUp {
+    -webkit-animation-name: slideUp;
+    -moz-animation-name: slideUp;
+    -o-animation-name: slideUp;
+    animation-name: slideUp;
+  }
