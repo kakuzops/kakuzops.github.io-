@@ -21,6 +21,7 @@
     order: 2;
     flex-basis: 100%;
     transition: background-color .3s ease;
+
 }
 
 
@@ -64,7 +65,7 @@ li {
 
 site-nav a {
     padding: 20px;
-}
+    }
 }
 
 
@@ -115,4 +116,10 @@ site-nav a {
     -moz-animation-name: slideUp;
     -o-animation-name: slideUp;
     animation-name: slideUp;
+  }
+
+
+  .site-nav a:hover {
+      color: #f8f8f8;
+      
   }
