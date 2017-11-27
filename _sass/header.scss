@@ -47,7 +47,7 @@ li {
 }
 
 .site-nav a {
-    color: #E2E6E7;
+    color: #f8f8f8;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -55,6 +55,7 @@ li {
     letter-spacing: 1.2px;
     font-size: 12px;
     padding: 14px 11px;
+    opacity:0.5;
 }
 
 @media (min-width: 600px){
@@ -120,6 +121,6 @@ site-nav a {
 
 
   .site-nav a:hover {
-      color: #f8f8f8;
-      
+      color: #ffffff;
+      opacity: 1;
   }
