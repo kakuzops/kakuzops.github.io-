@@ -3,6 +3,5 @@ layout: post
 ---
 
 
-<div class="content-text">
-    
+<div class="content-text">    
 </div>
