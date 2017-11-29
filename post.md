@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 ---
 
 
@@ -8,11 +9,8 @@ layout: post
 <br>
 
 <div id="disqus_thread"></div>
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+<script>
 
 var disqus_config = function () {
 this.page.url = "https://kakuzops.github.io{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
