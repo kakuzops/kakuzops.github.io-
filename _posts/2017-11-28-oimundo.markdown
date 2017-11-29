@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Oi Mundo"
 date:   2017-11-28 17:49:15 -0200
 descpriton: Hello it's me

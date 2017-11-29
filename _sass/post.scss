@@ -1,7 +1,14 @@
-.content-text {
+article {
     position: relative;
     background-color: #f2f2f2;
-    p {
+    
+    h2{
+        font-size: 35px;
         padding: 1em 3em;
+        margin: 0;
+    }
+    p {
+        padding: 2em 7em 0 7em;
+        text-align: justify;
     }
 }
