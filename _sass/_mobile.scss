@@ -3,8 +3,16 @@
         font-size: 39px;
     }
 
+    .content {
+      flex-direction: column;
+    }
+
     .content .topics {
         padding-right: 0;
+        li{
+          max-width: 100%;
+          width: 48vh;
+        }
     }
 
     .content-about .post-title {
@@ -20,4 +28,11 @@
     .content-text p {
         padding: 1em;
     }
+
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+  .content {
+    flex-direction: column;
+  }
 }
