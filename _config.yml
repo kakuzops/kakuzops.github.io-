@@ -29,6 +29,7 @@ dash:
   date_format: "%d %-b, %Y"
 plugins:
   - jekyll-feed
+remote_theme: bitbrain/jekyll-dash
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
