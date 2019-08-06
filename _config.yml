@@ -24,7 +24,6 @@ github_username:  kakuzops
 
 # Build settings
 markdown: kramdown
-theme: jekyll-dash
 remote_theme: bitbrain/jekyll-dash
 
 plugins:
