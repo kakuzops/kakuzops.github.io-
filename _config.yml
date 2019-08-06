@@ -24,7 +24,7 @@ github_username:  kakuzops
 
 # Build settings
 markdown: kramdown
-theme: jekyll-dash
+theme: jekyll-theme-hacker
 dash:
   date_format: "%d %-b, %Y"
 plugins:
