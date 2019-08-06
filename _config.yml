@@ -13,40 +13,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Leonardo Silva
+title: kakuzops
 email: kakuzops@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Meu nome é Leonardo da Silva Nogueira, nascido e criado em São Paulo a famosa selva de pedra
+  Desenvolvedor Fullstack, preguiçoso e warchief nas horas vagas
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kakuzops.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "www.kakuzops.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kakuzops
 github_username:  kakuzops
 
-
-date_format: "%b %d, %y"
-
-
-twitter: kakuzops
-#  username:
-instagram_username: kakuzoPs
-
-linkedin_username: leonardo-silva-94aa7998/
-
-#  site:
-
-
-# gitlab on site
-gitlab:
-  owner_url: https://gitlab.com/leonard9
-
-# github on site
-github:
-  owner_url: https://github.com/leonard9
-
-
 # Build settings
 markdown: kramdown
-
+theme: jekyll-dash
+dash:
+  date_format: "%d %-b, %Y"
 plugins:
   - jekyll-feed
 
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
